@@ -50,15 +50,6 @@ Traditional food apps rely on static lists and images. BiteReels makes discoveri
 
 ---
 
-## 🛠 Tech Stack
-- **Frontend:** React
-- **Backend:** Node.js
-- **Database:** MongoDB
-- **Authentication:** JWT
-- **Video Storage:** Cloud-based solution
-
----
-
 ⭐ *If you like React, Node, MongoDB, and short-video apps — this project is for you!*
 
 
