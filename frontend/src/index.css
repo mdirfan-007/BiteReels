@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Centralized theme variables used across all auth pages */
+:root {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --accent: #06b6d4;
+  --input-bg: #f1f5f9;
+  --ring: rgba(6,182,212,0.18);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #071028;
+    --card: #071024;
+    --text: #e6eef8;
+    --muted: #9aa8b6;
+    --accent: #06b6d4;
+    --input-bg: #06202c;
+    --ring: rgba(6,182,212,0.35);
+  }
+}
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Component utilities that use CSS variables for colors */
+.auth-card {
+  background-color: var(--card);
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.06);
+}
+
+.input-field {
+  background-color: var(--input-bg);
+  color: var(--text);
+  border: 1px solid rgba(15,23,42,0.06);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.575rem 0.9rem;
+  font-weight: 600;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--accent);
+}
+
+/* Reels / video utility styles */
+.reel-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.reel-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
