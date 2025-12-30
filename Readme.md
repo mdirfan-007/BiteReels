@@ -18,45 +18,48 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-# 🚀 [BiteReels]
-Short-Video Food Discovery Platform (Reels for Food)
-Discover food the way you scroll reels.
-BiteReels turns food discovery into a fast, visual, and addictive experience.
+# 🚀 BiteReels
+**Short-Video Food Discovery Platform**  
+*Discover food the way you scroll reels.*
 
-⭐ If you like React, Node, MongoDB, short-video apps, this project is for you!
+BiteReels transforms traditional food discovery into a fast, visual, and addictive reels-style experience.
 
-✨ Why BiteReels?
-Traditional food apps are boring lists.
-BiteReels makes food discovery visual, engaging, and scroll-based, just like modern social platforms.
+---
 
-✔ Scroll
-✔ Auto-play videos
-✔ Discover food instantly
-✔ Visit food partner stores
+## ✨ Why BiteReels?
+Traditional food apps rely on static lists and images. BiteReels makes discovering food **visual, engaging, and scroll-based** — just like modern social platforms.
 
-🎯 Key Highlights
+### 🎯 Key Features
+- 📱 **Reels-style vertical scrolling** for seamless browsing
+- ▶️ **Auto-play videos** using Intersection Observer API
+- 👨‍🍳 **Food Partner onboarding & authentication**
+- 🔐 **JWT-based secure APIs**
+- ☁️ **Cloud video upload & storage**
+- 🏪 **Visit Store** – view all foods from a specific partner
+- 🧠 **Clean, scalable backend architecture**
+- 🚀 **Production-ready approach**
 
-📱 Reels-style vertical scrolling
-▶️ Auto-play videos using Intersection Observer
-👨‍🍳 Food Partner onboarding & authentication
-🔐 JWT-based secure APIs
-☁️ Cloud video upload
-🧠 Clean backend architecture
-🚀 Production-ready approach
+---
 
-🧠 How It Works (High Level)
-Food Partner → Upload Food Video → Stored in Cloud
-Food linked to Partner (MongoDB)
-Users scroll & discover food reels
+## 🧠 How It Works (High-Level)
 
+1. **Food Partner** → Uploads food video → Stored in Cloud  
+2. **Food metadata** → Linked to Partner in MongoDB  
+3. **User** → Scrolls & discovers food reels  
+4. **Click “Visit Store”** → Views all foods from that partner
 
-Click “Visit Store” → View all foods from that partner.
+---
 
+## 🛠 Tech Stack
+- **Frontend:** React
+- **Backend:** Node.js
+- **Database:** MongoDB
+- **Authentication:** JWT
+- **Video Storage:** Cloud-based solution
 
+---
 
-
-
-
+⭐ *If you like React, Node, MongoDB, and short-video apps — this project is for you!*
 
 
 ## ✨ Features
